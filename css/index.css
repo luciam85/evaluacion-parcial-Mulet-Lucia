@@ -31,7 +31,7 @@ nav ul {
   display: flex;
 }
 nav ul li {
-  flex-grow: 0;
+  flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 25%;
 }
@@ -48,8 +48,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: rgba(213, 151, 65, 0.3);
+  border:  2px solid;
+  border-color: rgba(213, 151, 65, 0.3);
   font-weight: bold;
+
 }
 
 /* SECTIONS & CONTAINERS */
@@ -62,7 +64,7 @@ nav ul li a:hover {
 /* COFFEE SHOP */
 
 #section-main-image {
-  min-height: 90vh;
+  min-height: 120vh;
   background-image: url("https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2071&q=80");
   display: flex;
   justify-content: center;
@@ -72,7 +74,7 @@ nav ul li a:hover {
 
 #section-main-image h1 {
   color: rgba(255, 255, 255, 0.7);
-  margin: 0;
+  margin: 0px;
   font-size: 100px;
   display: flex;
   justify-content: center;
@@ -95,9 +97,15 @@ nav ul li a:hover {
   text-align: center;
 }
 
+#section-coffee h3 {
+  margin: 40px 0 20px 0;
+  text-align: center;
+}
+
 #section-coffee p {
   text-align: justify;
   line-height: 25px;
+  text-align: center;
 }
 
 .product-grid {
